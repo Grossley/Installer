@@ -9,33 +9,33 @@ namespace SpaghettiCh2.Models
     /// </summary>
     public static class StringsModel
     {
-        public static string StatusAllGood => "Tutto in ordine!";
-        public static string StatusFileDoesNotExist => "Il File non esiste.";
-        public static string StatusRunningScript => "Installando la traduzione...";
-        public static string StatusLoading => "Caricando file di gioco...";
-        public static string StatusSaving => "Salvando, NON chiudere la finestra";
-        public static string StatusDone => "Completato. Puoi chiudermi e avviare il gioco!";
-        public static string AssetsDoNotExist => "Il percorso degli asset per la traduzione non esiste.\nPer favore,\n ri-scarica l'installer ->";
-        public static string AssetsVersionError => "Errore nella lettura della versione degli Asset.\nPer favore,\n ri-scarica l'installer ->";
-        public static string ERROR => "ERRORE: {0}";
-        public static string StatusNoGame => "Nessun file di gioco valido selezionato, premi Sfoglia";
-        public static string DialogFilterName => "File di Gioco (*.exe, *.app, *.win, *.ios, *.unx)";
-        public static string DialogTitle => "Seleziona DELTARUNE.exe, .app o data.win";
+        public static string StatusAllGood => "Everything in order!";
+        public static string StatusFileDoesNotExist => "File does not exist.";
+        public static string StatusRunningScript => "Installing the translation ...";
+        public static string StatusLoading => "Loading game files ...";
+        public static string StatusSaving => "When saving, DO NOT close the window";
+        public static string StatusDone => "Completed. You can close me and start the game!";
+        public static string AssetsDoNotExist => "The path to the assets for translation does not exist. \nPlease \n re-download the installer ->";
+        public static string AssetsVersionError => "Error reading Asset version. \nPlease \n re-download the installer ->";
+        public static string ERROR => "ERROR: {0}";
+        public static string StatusNoGame => "No valid game file selected, press Browse";
+        public static string DialogFilterName => "Game files (* .exe, * .app, * .win, * .ios, * .unx)";
+        public static string DialogTitle => "Select DELTARUNE.exe, .app or data.win";
         public static string WebsiteLink => "https://undertaleita.net/deltarune.html";
         public static string StatusFormat => "Status: {0}";
-        public static string UIVersionStringFormat => "Installer Versione: {0}\nAssets Versione: {1}\nDebug Info: {2}";
-        public static string UIGreeting => "Undertale/Deltarune Patch Italiana\ndell'Undertale Spaghetti Project";
-        public static string UIBelowGreeting => "Scegli cosa fare:";
-        public static string UIButtonInstall => "Installa";
-        public static string UIButtonWebsite => "Visita il nostro sito";
-        public static string UIAboveTextBox => "Percorso del gioco:";
-        public static string UIButtonBrowse => "Sfoglia...";
-        public static string UIButtonApply => "Applica la patch!";
+        public static string UIVersionStringFormat => "Installer Version: {0} \nAssets Version: {1} \nDebug Info: {2}";
+        public static string UIGreeting => "Undertale / Deltarune Patch Italian \nof the Undertale Spaghetti Project";
+        public static string UIBelowGreeting => "Choose what to do:";
+        public static string UIButtonInstall => "Install";
+        public static string UIButtonWebsite => "Visit our site";
+        public static string UIAboveTextBox => "Game path:";
+        public static string UIButtonBrowse => "Browse ...";
+        public static string UIButtonApply => "Apply the patch!";
         // ... or "your game path here"
-        public static string UIBoxWatermark => "Premi 'Sfoglia' per scegliere il gioco...";
-        public static string UIWindowTitle => "Undertale/Deltarune Patcher dell'USP";
-        public static string UIAssetDirRO => "Usando dir. temp. per gli asset";
-        public static string UICheckingForUpdates => "Cercando aggiornamenti...";
-        public static string UIDownloadingUpdate => "Aggiornamento trovato, in download...";
+        public static string UIBoxWatermark => "Press 'Browse' to choose the game ...";
+        public static string UIWindowTitle => "Undertale / Deltarune Patcher of the USP";
+        public static string UIAssetDirRO => "Using temp dir for assets";
+        public static string UICheckingForUpdates => "Looking for updates ...";
+        public static string UIDownloadingUpdate => "Update found, in download ...";
     }
 }
